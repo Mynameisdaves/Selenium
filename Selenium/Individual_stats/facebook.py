@@ -81,7 +81,7 @@ if __name__ == "__main__":
     driver = uc.Chrome(options=options)
 
     try:
-        login(driver, "dannyvito05@gmail.com", "crazydanny1234567@")
+        login(driver, "yourusername", "yourpassword")
         print("✅ Logged in successfully!")
 
         driver.get("https://www.facebook.com/OfficialBloodStrikeNetEase/")

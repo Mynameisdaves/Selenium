@@ -13,12 +13,12 @@ seen_links = set()
 
 try:
     input_box = driver.find_element(By.NAME, "text")
-    input_box.send_keys("Dorsy61341")
+    input_box.send_keys("yourusername")
     input_box.send_keys(Keys.ENTER)
     time.sleep(3)
 
     password_input = driver.find_element(By.NAME, "password")
-    password_input.send_keys("Davids67")
+    password_input.send_keys("yourpassword")
     password_input.send_keys(Keys.ENTER)
     time.sleep(11)
 
